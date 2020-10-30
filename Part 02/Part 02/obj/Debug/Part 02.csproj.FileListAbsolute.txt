@@ -1,0 +1,7 @@
+C:\Users\D.G Lasith Tharindu\Desktop\Techni\Part 02\Part 02\bin\Debug\Part 02.exe.config
+C:\Users\D.G Lasith Tharindu\Desktop\Techni\Part 02\Part 02\bin\Debug\Part 02.exe
+C:\Users\D.G Lasith Tharindu\Desktop\Techni\Part 02\Part 02\bin\Debug\Part 02.pdb
+C:\Users\D.G Lasith Tharindu\Desktop\Techni\Part 02\Part 02\obj\Debug\Part 02.csprojAssemblyReference.cache
+C:\Users\D.G Lasith Tharindu\Desktop\Techni\Part 02\Part 02\obj\Debug\Part 02.csproj.CoreCompileInputs.cache
+C:\Users\D.G Lasith Tharindu\Desktop\Techni\Part 02\Part 02\obj\Debug\Part 02.exe
+C:\Users\D.G Lasith Tharindu\Desktop\Techni\Part 02\Part 02\obj\Debug\Part 02.pdb

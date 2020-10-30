@@ -1,0 +1,28 @@
+{
+  "details": [
+    {
+      "codeID": "32424",
+      "fristname": "Lasith",
+      "lastname": "Last test1",
+      "dob": "2020/10/30",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "codeID": "32f43534424",
+      "fristname": "Hiran",
+      "lastname": "Last test2",
+      "dob": "2020/02/30",
+      "username": "admin2",
+      "password": "admin2"
+    },
+    {
+      "codeID": "32345675424",
+      "fristname": "Raminda",
+      "lastname": "Last test3",
+      "dob": "2020/08/21",
+      "username": "admin3",
+      "password": "admin3"
+    }
+  ]
+}
