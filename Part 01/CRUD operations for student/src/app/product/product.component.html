@@ -5,12 +5,12 @@
 </h2>
 
 <form id = "formNewProduct" name = "formNewProduct" #productData = "ngForm" (ngSubmit) = "addNewProduct(productData.value)">
-  <label>Code (unique): </label><input type = "text" name="name" id="" placeholder="Enter Code (unique)" ngModel><br>
-  <label>First Name: </label><input type = "text" name="name" id="" placeholder="Enter First Name" ngModel><br>
-  <label>Last Name: </label><input type = "text" name="name" id="" placeholder="Enter Last Name" ngModel><br>
-  <label>DOB: </label><input type = "date" name="name" id="" ngModel><br>
-  <label>Username: </label><input type = "text" name="name" id="" placeholder="Enter Username" ngModel><br>
-  <label>Password: </label><input type = "text" name="color" id="color" placeholder="Enter Password" ngModel><br>
+  <label>Code (unique): </label><input type = "text" name="codeid" id="codeid" placeholder="Enter Code (unique)" ngModel><br>
+  <label>First Name: </label><input type = "text" name="fname" id="fname" placeholder="Enter First Name" ngModel><br>
+  <label>Last Name: </label><input type = "text" name="lname" id="lname" placeholder="Enter Last Name" ngModel><br>
+  <label>DOB: </label><input type = "date" name="dob" id="dob" ngModel><br>
+  <label>Username: </label><input type = "text" name="username" id="username" placeholder="Enter Username" ngModel><br>
+  <label>Password: </label><input type = "text" name="password" id="password" placeholder="Enter Password" ngModel><br>
   <input type="submit" value = "Add Student">
 </form>
 

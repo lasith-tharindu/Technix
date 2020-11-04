@@ -20,12 +20,16 @@ export class UpdateProductComponent implements OnInit {
 
   constructor(private router: Router, private route: ActivatedRoute, private http: Http) { }
 
-  updateProduct(product) {
+  updateProduct(details) {
     this.productObj = {
-      "name": product.name,
-      "color": product.color
+      "codeid": details.codeid,
+      "fname": details.fname,
+      "lname":details.lname ,
+      "dob":details.dob,
+      "username":details.username ,
+      "password":details.password
     };
-    const url = `${"http://localhost:5555/products"}/${this.id}`;
+    const url = `${"http://localhost:5555/details"}/${this.id}`;
     this.http.put(url, JSON.stringify(this.productObj), {headers: this.headers})
       .toPromise()
       .then(() => {
@@ -37,7 +41,7 @@ export class UpdateProductComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.id = +params['id'];
     });
-    this.http.get("http://localhost:5555/products").subscribe(
+    this.http.get("http://localhost:5555/details").subscribe(
       (res: Response) => {
         this.products = res.json();
         for(var i = 0; i < this.products.length ; i++) {

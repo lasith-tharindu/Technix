@@ -1,28 +1,31 @@
 {
   "details": [
     {
-      "codeID": "32424",
-      "fristname": "Lasith",
-      "lastname": "Last test1",
+      "codeid": "2323234234",
+      "fname": "Tharindu",
+      "lname": "Last test1",
       "dob": "2020/10/30",
-      "username": "admin",
-      "password": "admin"
+      "username": "admin32",
+      "password": "admin3423",
+      "id": 1
     },
     {
-      "codeID": "32f43534424",
-      "fristname": "Hiran",
-      "lastname": "Last test2",
+      "id": 2,
+      "codeid": "1420",
+      "fname": "Hiran",
+      "lname": "Last test2",
       "dob": "2020/02/30",
       "username": "admin2",
       "password": "admin2"
     },
     {
-      "codeID": "32345675424",
-      "fristname": "Raminda",
-      "lastname": "Last test3",
-      "dob": "2020/08/21",
-      "username": "admin3",
-      "password": "admin3"
+      "codeid": "42343424",
+      "fname": "Tharindu3424",
+      "lname": "Lasith3442",
+      "dob": "2020-11-05",
+      "username": "324",
+      "password": "dsf323",
+      "id": 4
     }
   ]
 }

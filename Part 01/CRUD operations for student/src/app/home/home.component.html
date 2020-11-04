@@ -5,6 +5,7 @@
 </h1>
 
 <table>
+  <th>id</th>
   <th>Code (unique)</th>
   <th>First Name</th>
   <th>Last Name</th>
@@ -12,14 +13,15 @@
   <th>Username</th>
   <th>Password</th>
   <tr *ngFor="let detail of details">
-    <td>{{detail.codeID}}</td>
-    <td>{{detail.fristname}}</td>
-    <td>{{detail.lastname}}</td>
+    <td>{{detail.id}}</td>
+    <td>{{detail.codeid}}</td>
+    <td>{{detail.fname}}</td>
+    <td>{{detail.lname}}</td>
     <td>{{detail.dob}}</td>
     <td>{{detail.username}}</td>
     <td>{{detail.password}}</td>
-    <td (click) = "deleteProduct(detail.codeID)"><a>DELETE</a></td>
-    <td [routerLink] = "['/updateStudentDetails', detail.codeID]"><a>UPDATE</a></td>
+    <td (click) = "deleteProduct(detail.id)"><a>DELETE</a></td>
+    <td [routerLink] = "['/updateProduct', detail.id]"><a>UPDATE</a></td>
   </tr>
 </table>
 

@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
 
   details = [];
   fetchData = function() {
-    this.http.get("http://localhost:55555/details").subscribe(
+    this.http.get("http://localhost:5555/details").subscribe(
       (res: Response) => {
         this.details = res.json();
         console.log(this.details = res.json());
@@ -25,10 +25,10 @@ export class HomeComponent implements OnInit {
 
   deleteProduct = function(id) {
     if(confirm("Are you sure?")) {
-      const url = `${"http://localhost:55555/details"}/${id}`;
+      const url = `${"http://localhost:5555/details"}/${id}`;
       return this.http.delete(url, {headers: this.headers}).toPromise()
         .then(() => {
-        this.fetchData();
+          this.fetchData();
         })
     }
   }

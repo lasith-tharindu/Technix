@@ -9,20 +9,21 @@ import { Http, Response, Headers } from '@angular/http';
 export class ProductComponent implements OnInit {
 
   constructor(private http: Http) { }
-  confirmationString:string = "New Student  Details has been added";
+  confirmationString:string = "New Student Details has been added";
   isAdded: boolean = false;
   productObj:object = {};
 
-  addNewProduct = function(detail) {
+  addNewProduct = function(details) {
     this.productObj = {
-      "codeID": detail.codeID,
-      "fristname": detail.fristname,
-      "lastname":detail.lastname ,
-      "dob":detail.dob,
-      "username":detail.username ,
-      "password":detail.password
+      "codeid": details.codeid,
+      "fname": details.fname,
+      "lname":details.lname,
+      "dob":details.dob,
+      "username":details.username ,
+      "password":details.password
     }
-    this.http.post("http://localhost:55555/details/", this.productObj).subscribe((res:Response) => {
+    this.http.post("http://localhost:5555/details/", this.productObj).subscribe((res:Response) => {
+      console.log(res);
       this.isAdded = true;
     })
   }
